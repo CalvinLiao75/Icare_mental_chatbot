@@ -1,0 +1,2 @@
+# Icare_mental_chatbot
+利用Azure LUIS語意理解所製作的心理治療聊天機器人
