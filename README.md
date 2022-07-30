@@ -13,4 +13,11 @@
 
 ![1659174497510](https://user-images.githubusercontent.com/109274108/181917726-ffa3d889-0275-4234-8493-59075a037fbb.jpg)
 ![1659174528623](https://user-images.githubusercontent.com/109274108/181917732-f5b3b931-0f92-4902-ad12-db165b959658.jpg)
-![1659174544492](https://user-images.githubusercontent.com/109274108/181917735-e99456c2-962b-46e0-b302-f46075deab7c.jpg)
+
+舒壓方案系統
+
+在聊天機器人提供的舒壓建議皆宣告無用後,建議使用者到主頁面下面的舒壓方案,我們提供給使用者三種方式,讓使用者能選擇對自身心理狀態最有幫助的
+方案。
+
+
+![1659174544492](https://user-images.githubusercontent.com/109274108/181918556-447c83e5-6e6f-4ac5-ac46-d82a6eccb21d.jpg)
