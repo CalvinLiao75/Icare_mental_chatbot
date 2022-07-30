@@ -1,0 +1,25 @@
+沒有權限設定微軟的密碼
+
+
+2c155cc7-0e66-435a-b81e-99fbc9ff7826
+
+
+
+Mid: dfceeaaf-0984-4209-b8b7-200a0a607d3b
+rS8wLIL9Ke0.mkl9qm3-98iJMdcMBoxinFJklSp6Q3gUhUZmq64FccY
+mood值(正確密碼)
+Mpassword: .H4YO0i1_UR~5Ax31z6M2CAy4-Ij1QzPZF
+
+b0f65de3-9bbd-4311-a186-5aa153448407
+2f698e19-b51e-4d95-827b-674ea4778794
+
+
+
+
+https://mhathotelbot20210910183625.azurewebsites.net/api/messages
+
+azure
+
+redthia1074548
+
+https://webchat.botframework.com/embed/mood?s=AJY2bR5PEFQ.aTiIuOjlJbEEJFORabcHnp4t4tzd4FoOfmKKh-U-VEM

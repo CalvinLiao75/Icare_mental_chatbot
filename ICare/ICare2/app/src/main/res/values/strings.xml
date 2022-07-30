@@ -1,0 +1,316 @@
+<resources>
+    <string name="app_name">ICare2</string>
+    <string name="fragment2_explain">You control your data. You can get a copy of your data or request its deletion at any time in accordance with our <a href='https://www.google.com.tw/'>Privacy Policy</a></string>
+    <string name="fragment3_explain">By continuing, you agree that you accept our <a href='https://www.google.com.tw/'>Terms of Service</a> and <a href='https://www.google.com.tw/'>Privacy Policy</a></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button_GetTheDay">取得日期</string>
+    <string name="button_SetTarget">設置標記</string>
+    <string name="button_CancelTarget">解除標記</string>
+    <string name="button_Today">回到今日</string>
+    <string name="mood1"></string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="naviBt">導航</string>
+    <string-array name="locations">
+        <item>請選擇地區</item>
+        <item>基隆市</item>
+        <item>台北市</item>
+        <item>新北市</item>
+        <item>桃園市</item>
+        <item>新竹</item>
+        <item>苗栗縣</item>
+        <item>台中市</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義市</item>
+        <item>嘉義縣</item>
+        <item>台南市</item>
+        <item>高雄市</item>
+        <item>屏東縣</item>
+        <item>宜蘭縣</item>
+        <item>花蓮縣</item>
+        <item>台東縣</item>
+    </string-array>
+    <string-array name="c0">
+        <item>診所選擇</item>
+    </string-array>
+<!--    基隆-->
+    <string-array name="c1">
+        <item>診所選擇</item>
+        <item>基隆心身心精神科診所</item>
+        <item>詠欣精神科診所</item>
+        <item>紀醫師診所</item>
+    </string-array>
+<!--    台北-->
+    <string-array name="c2">
+        <item>診所選擇</item>
+        <item>大安身心診所</item>
+        <item>向陽身心診所</item>
+        <item>黃雅芬兒童心智診所</item>
+        <item>鈺璽診所</item>
+        <item>進安身心診所</item>
+        <item>天母康健身心診所</item>
+        <item>社子安心診所</item>
+        <item>奇岩身心診所</item>
+        <item>石牌鄭身心醫學診所</item>
+        <item>北辰身心醫學診所</item>
+        <item>邱楠超診所</item>
+        <item>李政洋身心診所</item>
+        <item>双悅診所</item>
+        <item>泓仁診所</item>
+        <item>木柵身心診所</item>
+        <item>和沛身心醫學診所</item>
+        <item>福全身心科診所</item>
+        <item>醫者診所</item>
+        <item>夏一新精神科診所</item>
+        <item>內湖身心精神科診所</item>
+        <item>夏凱納生活診所</item>
+        <item>大心診所(古亭)</item>
+        <item>捷思身心醫學診所</item>
+        <item>開馨診所</item>
+    </string-array>
+<!--新北-->
+    <string-array name="c3">
+        <item>診所選擇</item>
+        <item>順心診所</item>
+        <item>心世界身心精神科診所</item>
+        <item>林威廷身心精神科診所</item>
+        <item>合康診所</item>
+        <item>怡濟慈園醫療社團法人宏濟神經精神科醫院</item>
+        <item>新店北新身心診所</item>
+        <item>樂活精神科診所</item>
+        <item>永和開心診所</item>
+        <item>寧靜海診所</item>
+        <item>維品身心診所</item>
+        <item>悠活精神科診所</item>
+        <item>永康身心診所</item>
+        <item>養心診所</item>
+        <item>美麗心成人兒童精神科診所</item>
+        <item>孔繁錦診所</item>
+        <item>育心身心精神科診所</item>
+        <item>晴美身心診所</item>
+        <item>壬康精神科診所</item>
+        <item>喜悅診所</item>
+        <item>樹新耳鼻喉科診所</item>
+        <item>心悅身心診所</item>
+        <item>王湘琦身心診所</item>
+        <item>欣泉身心診所</item>
+        <item>龍霖身心診所</item>
+    </string-array>
+<!--    桃園-->
+    <string-array name="c4">
+        <item>診所選擇</item>
+        <item>吳俊毅身心精神科診所</item>
+        <item>一德身心診所</item>
+        <item>正文身心診所</item>
+        <item>順心診所</item>
+        <item>尚語身心診所</item>
+        <item>雷亞診所</item>
+        <item>欣悅診所</item>
+        <item>晨新聯合診所</item>
+        <item>國軍桃園總醫院精神科大樓</item>
+        <item>楊延壽診所</item>
+        <item>黃正龍診所</item>
+        <item>新楊梅診所</item>
+        <item>蘇宗偉身心診所</item>
+        <item>清心身心診所</item>
+    </string-array>
+<!--    新竹-->
+    <string-array name="c5">
+        <item>診所選擇</item>
+        <item>安立身心診所</item>
+        <item>陽光精神科診所</item>
+        <item>瑞安診所</item>
+        <item>馬大元診所</item>
+        <item>平衡身心診所</item>
+        <item>心園心理治療所-新竹所</item>
+        <item>杜華心苑心理諮商所</item>
+    </string-array>
+<!--    苗栗-->
+    <string-array name="c6">
+        <item>診所選擇</item>
+        <item>益康診所</item>
+        <item>吳四維診所</item>
+        <item>天慈身心診所</item>
+        <item>承美身心科診所</item>
+    </string-array>
+<!--    台中-->
+    <string-array name="c7">
+        <item>診所選擇</item>
+        <item>明功堂精神科診所</item>
+        <item>中美偕診所</item>
+        <item>陽晴心理治療所</item>
+        <item>欣悅診所</item>
+        <item>德仁診所</item>
+        <item>黃淑琦心身診所</item>
+        <item>詹益忠身心醫學診所</item>
+        <item>詹東霖心身診所</item>
+        <item>光流聯合診所</item>
+        <item>昕晴診所</item>
+        <item>康誠心身醫學診所</item>
+        <item>趙玉良身心醫學診所</item>
+        <item>尚義診所</item>
+        <item>文心樂丞診所</item>
+        <item>鄭曜忠身心診所</item>
+        <item>世淋診所</item>
+        <item>好晴天身心診所</item>
+        <item>蕭芸嶙身心醫學診所</item>
+        <item>新活力診所</item>
+        <item>后里診所</item>
+        <item>簡亦淇診所</item>
+    </string-array>
+<!--    彰化-->
+    <string-array name="c8">
+        <item>診所選擇</item>
+        <item>修慧診所</item>
+        <item>頤晴診所</item>
+        <item>存寬診所</item>
+        <item>李光耀診所</item>
+        <item>陳建達診所</item>
+        <item>和美身心醫學診所</item>
+    </string-array>
+<!--南投-->
+    <string-array name="c9">
+        <item>診所選擇</item>
+        <item>惠承診所</item>
+        <item>惠良診所</item>
+        <item>惠元診所</item>
+        <item>協安診所</item>
+    </string-array>
+<!--    雲林-->
+    <string-array name="c10">
+        <item>診所選擇</item>
+        <item>何正岳診所</item>
+        <item>趙夢麒診所</item>
+        <item>雲萱診所</item>
+        <item>晴明身心診所</item>
+    </string-array>
+<!--    嘉義-->
+    <string-array name="c11">
+        <item>診所選擇</item>
+        <item>吳南逸診所</item>
+        <item>真善渼診所</item>
+        <item>太和診所</item>
+        <item>周裕軒身心醫學診所</item>
+        <item>蕭正誠診所</item>
+        <item>知心連冀身心醫學科診所</item>
+        <item>徐鴻傑身心診所</item>
+    </string-array>
+<!--    台南-->
+    <string-array name="c12">
+        <item>診所選擇</item>
+        <item>晟欣診所</item>
+        <item>王盈彬精神科診所</item>
+        <item>心樂活診所</item>
+        <item>春暉精神科診所</item>
+        <item>康舟診所</item>
+        <item>林春銘神經精神科內科診所</item>
+        <item>心悠活診所</item>
+        <item>上善心理治療所</item>
+        <item>安立診所</item>
+        <item>吳吉得診所</item>
+        <item>安大身心精神科診所</item>
+        <item>安平心寬診所</item>
+        <item>林俞仲身心精神科診所</item>
+        <item>心永康身心精神科診所</item>
+        <item>晴光診所</item>
+        <item>同行身心診所</item>
+        <item>安芯診所</item>
+        <item>心田診所</item>
+        <item>陳俊升精神科診所</item>
+        <item>林晏弘診所</item>
+        <item>明如身心診所</item>
+        <item>瓏芯診所</item>
+        <item>白河林眼科診所</item>
+        <item>陳相國聯合診所</item>
+    </string-array>
+<!--    高雄-->
+    <string-array name="c13">
+        <item>診所選擇</item>
+        <item>青欣診所</item>
+        <item>榮欣身心診所</item>
+        <item>柯偉恭診所</item>
+        <item>家慈診所</item>
+        <item>雲上太陽心寧診所</item>
+        <item>佳璋診所</item>
+        <item>元和雅診所</item>
+        <item>樂群診所</item>
+        <item>大福診所</item>
+        <item>佳欣診所</item>
+        <item>心悅診所</item>
+        <item>建工心喜診所</item>
+        <item>大順景福診所</item>
+        <item>健泰診所</item>
+        <item>郭玉柱診所</item>
+        <item>心欣診所</item>
+        <item>李宣炘診所</item>
+        <item>康泰診所</item>
+        <item>李全忠診所</item>
+        <item>心樂診所</item>
+        <item>唐子俊診所</item>
+        <item>尋路身心診所</item>
+        <item>維心診所</item>
+        <item>國良診所</item>
+        <item>信元聯合診所</item>
+        <item>季宏診所</item>
+        <item>張簡精神科診所</item>
+        <item>欣明精神科診所</item>
+        <item>仁華診所</item>
+    </string-array>
+<!--    屏東-->
+    <string-array name="c14">
+        <item>診所選擇</item>
+        <item>泰祥診所</item>
+        <item>寬心診所</item>
+        <item>瑞興診所</item>
+        <item>晨安診所</item>
+    </string-array>
+<!--宜蘭-->
+    <string-array name="c15">
+        <item>診所選擇</item>
+        <item>平和身心診所</item>
+        <item>光中身心診所</item>
+        <item>雅信診所</item>
+    </string-array>
+<!--    花蓮-->
+    <string-array name="c16">
+        <item>診所選擇</item>
+        <item>福田耳鼻喉科診所</item>
+        <item>同心診所</item>
+        <item>中山身心診所</item>
+        <item>悅思身心診所</item>
+        <item>悅增身心診所</item>
+    </string-array>
+<!--    台東-->
+    <string-array name="c17">
+        <item>診所選擇</item>
+        <item>楊國明身心科診所</item>
+        <item>陳柄辰身心科診所</item>
+    </string-array>
+    <string name="title_activity_bot">Bot</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="reset_button_summary">Set all settings to default values</string>
+    <string name="reset_button_title">Default</string>
+    <string name="navigation_bar_color_title">Navigation Bar Color</string>
+    <string name="navigation_bar_color_summary">Set HTML Color Code</string>
+    <string name="toolbar_text_color_title">Toolbar Text Color</string>
+    <string name="toolbar_text_color_summary">Set HTML Color Code</string>
+    <string name="toolbar_color_title">Toolbar Color</string>
+    <string name="toolbar_color_summary">Set HTML Color Code</string>
+    <string name="url_value_title">Bot URL</string>
+    <string name="url_value_summary">Web Chat URL of the Bot</string>
+</resources>

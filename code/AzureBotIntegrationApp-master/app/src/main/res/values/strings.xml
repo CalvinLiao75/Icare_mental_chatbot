@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BotApp</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- preferences -->
+    <string name="reset_button_summary">Set all settings to default values</string>
+    <string name="reset_button_title">Default</string>
+    <string name="navigation_bar_color_title">Navigation Bar Color</string>
+    <string name="navigation_bar_color_summary">Set HTML Color Code</string>
+    <string name="toolbar_text_color_title">Toolbar Text Color</string>
+    <string name="toolbar_text_color_summary">Set HTML Color Code</string>
+    <string name="toolbar_color_title">Toolbar Color</string>
+    <string name="toolbar_color_summary">Set HTML Color Code</string>
+    <string name="url_value_title">Bot URL</string>
+    <string name="url_value_summary">Web Chat URL of the Bot</string>
+</resources>

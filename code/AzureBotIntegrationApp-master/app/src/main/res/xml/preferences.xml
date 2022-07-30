@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="General settings">
+        <EditTextPreference
+            android:defaultValue="https://webchat.botframework.com/embed/mood?s=AJY2bR5PEFQ.aTiIuOjlJbEEJFORabcHnp4t4tzd4FoOfmKKh-U-VEM"
+            android:key="url_value"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/url_value_summary"
+            android:title="@string/url_value_title" />
+        <EditTextPreference
+            android:defaultValue="#FFFFFF"
+            android:key="toolbar_text_color"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/toolbar_text_color_summary"
+            android:title="@string/toolbar_text_color_title" />
+        <EditTextPreference
+            android:defaultValue="BotApp"
+            android:key="toolbar_text"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="Set the Toolbar title"
+            android:title="Toolbar Title" />
+        <EditTextPreference
+            android:defaultValue="#3F51B5"
+            android:key="toolbar_color"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/toolbar_color_summary"
+            android:title="@string/toolbar_color_title" />
+        <EditTextPreference
+            android:defaultValue="#303F9F"
+            android:key="navigation_bar_color"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/navigation_bar_color_summary"
+            android:title="@string/navigation_bar_color_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,140 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".PrivacyPolicy">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal"
+            android:background="#B2C9FB">
+
+            <ImageButton
+                android:id="@+id/privacyPolicyBackArrowBtn"
+                android:layout_gravity="center_vertical"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/back_arrow"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"/>
+
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="40dp"
+                android:text="Privacy Policy"
+                android:textColor="#000000"
+                android:textSize="36sp"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction​"
+            android:textSize="32dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ICare (“ICare”, “us”, “we” or “our”) is committed to protecting and respecting your privacy. This Privacy Policy describes how we collect, store, use and distribute personal data through our software, website, mobile application (“App”), documentation, and related services (together, the “Services”).
+In this Privacy Policy, references to “you” means the person whose personal data we collect, use and process. Please read this Privacy Policy carefully to understand our treatment and use of personal data.
+We will use your personal data only for the purposes and in the manner outlined below, and in compliance with applicable laws.
+Please note that by using the Services, you acknowledge that you have read and understand this Privacy Policy."
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All ICare platforms"
+            android:textSize="32dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you choose to create a user account, you will be asked to provide an email address and password so that we can identify you across devices and comply with any potential request to delete or access your data. We will also ask you for an optional referral code, which we may use to track your participation in special programs, described in more detail below. You can also choose to skip account creation and create an account locally on your device: note that without an account, you will not be able to recover your data or log in on a different device."
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iOS and Android apps"
+            android:textSize="32dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="We use your email to create a user account. This step is optional; it is not required in order to use the platform. You can also bypass providing your email address if you wish. We use your time zone to personalize the experience."
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Identity of the controller of personal information​"
+            android:textSize="32dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The data controller for ICare Platforms is Woebot, a company and registered in the United States and having its registered office address at 650 5th Street Suite 303, San Francisco CA 94103."
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:id="@+id/privacyPolicyUnderStandBtn"
+            android:backgroundTint="#2894FF"
+            android:textAllCaps="false"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="I understand and accept"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+</ScrollView>

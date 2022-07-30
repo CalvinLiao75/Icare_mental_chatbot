@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"    ?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mono"
+    tools:context=".DestressMusic">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#B2C9FB"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp">
+
+        <ImageButton
+            android:id="@+id/destressMusicBackArrowBtn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_arrow_black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="10dp"
+            android:text="紓壓音樂"
+            android:textColor="#000000"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="7dp"
+        android:src="@drawable/eightnote" />
+    <Button
+        android:id="@+id/Music1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#b2c9fb"
+        android:paddingStart="70dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="70dp"
+        android:paddingBottom="10dp"
+        android:text="Music1"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/Music2"
+        android:backgroundTint="#b2c9fb"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingStart="70dp"
+        android:paddingEnd="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Music2"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/Music3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#b2c9fb"
+        android:paddingStart="70dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="70dp"
+        android:paddingBottom="10dp"
+        android:text="Music3"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="right"
+        android:src="@drawable/clef" />
+
+
+</LinearLayout>
+</ScrollView>

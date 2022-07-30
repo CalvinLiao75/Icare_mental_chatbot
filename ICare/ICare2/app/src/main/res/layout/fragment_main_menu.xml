@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainMenu">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="15dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/usericon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="10dp"
+                android:text="username"
+                android:textColor="#000000"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="40dp"
+                        android:text="臉部情緒辨識"
+                        android:textColor="#000000"
+                        android:textSize="28dp" />
+                    <ImageButton
+                        android:id="@+id/toFacialEmotionBtn"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/facialemotionbutton"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="40dp"
+                        android:text="聊天機器人"
+                        android:textColor="#000000"
+                        android:textSize="28dp" />
+                    <ImageButton
+                        android:id="@+id/toChatBotBtn"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/chatboxbutton"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginStart="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="left"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="40dp"
+                        android:text="心情紀錄"
+                        android:textColor="#000000"
+                        android:textSize="28dp" />
+                    <ImageButton
+                        android:id="@+id/toEmotionDiaryBtn"
+                        android:layout_gravity="center_vertical"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:background="@android:color/transparent"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/emotiondiarybutton"/>
+                </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginStart="20dp"
+
+            android:layout_marginTop="70dp"
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="情緒評分系統"
+                android:textSize="28sp"
+                android:textColor="#000000"
+                android:layout_gravity="left"/>
+
+            <ImageButton
+                android:layout_marginTop="10dp"
+                android:id="@+id/toEmotionScoreBtn"
+                android:layout_gravity="center_vertical"
+                android:layout_width="370dp"
+                android:layout_height="150dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitXY"
+                android:src="@drawable/emotionscorebutton"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
